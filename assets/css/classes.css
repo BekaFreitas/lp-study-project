@@ -1,0 +1,26 @@
+/*Background Principal e Background branco*/
+.main-bg {
+    background-image: url('../img/background.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+/*Formatação principal para seção*/
+.standard-section {
+    min-height: 100vh;
+}
+
+/*Formatção principal de Conteúdo*/
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+/**/
