@@ -1,3 +1,15 @@
+:root {
+    --primary-color: #403ddb;
+    --secondary-color: #FFD73B;
+
+    --white-color: #ffffff;
+    --black-color: #000000;
+
+    --light-gray-color: #EEEEEE;
+
+    --gap: 3rem;
+}
+
 * {
     margin: 0;
     padding: 0;
