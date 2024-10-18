@@ -18,7 +18,7 @@
 
 /*Formatção principal de Conteúdo*/
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -72,4 +72,13 @@
 .menu ul li a:hover::after {
     width: 50%;
     left: 25%;
+}
+
+/*Seção - intro*/
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
