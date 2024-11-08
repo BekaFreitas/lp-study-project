@@ -20,7 +20,7 @@
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 8rem var(--gap);
 }
 
 /*Grid*/
@@ -92,7 +92,7 @@
     grid-template-columns: 1fr 1.5fr;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-content img {
@@ -107,7 +107,7 @@
     align-items: center;
     justify-content: center;
     max-width: 80rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .top3-content p {
@@ -123,7 +123,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .jobs-content h2 {
