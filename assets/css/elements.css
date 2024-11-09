@@ -50,3 +50,15 @@ a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.2rem;
+}
+
+table td, table th {
+    border: 0.1rem solid var(--light-gray-color);
+    text-align: center;
+    padding: 0.3rem;
+}
